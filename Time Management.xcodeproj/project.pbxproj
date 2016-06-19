@@ -13,7 +13,15 @@
 		6A8C09AE1D16D389009FE5D4 /* Time_Management.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6A8C09AC1D16D389009FE5D4 /* Time_Management.xcdatamodeld */; };
 		6A8C09B01D16D389009FE5D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A8C09AF1D16D389009FE5D4 /* Assets.xcassets */; };
 		6A8C09B31D16D389009FE5D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A8C09B11D16D389009FE5D4 /* LaunchScreen.storyboard */; };
-		6A8C09BE1D16D389009FE5D4 /* Time_ManagementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8C09BD1D16D389009FE5D4 /* Time_ManagementTests.swift */; };
+		6A8C09C91D16D54B009FE5D4 /* Episodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8C09C81D16D54B009FE5D4 /* Episodable.swift */; };
+		6A8C09CB1D16D93C009FE5D4 /* EventTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8C09CA1D16D93C009FE5D4 /* EventTests.swift */; };
+		6A8C09CD1D16E254009FE5D4 /* IntentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8C09CC1D16E254009FE5D4 /* IntentTests.swift */; };
+		6A8C09D31D170EC7009FE5D4 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8C09D21D170EC7009FE5D4 /* Event.swift */; };
+		6A8C09D51D170ED0009FE5D4 /* Intent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8C09D41D170ED0009FE5D4 /* Intent.swift */; };
+		6A8C09D71D170F07009FE5D4 /* EpisodeCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8C09D61D170F07009FE5D4 /* EpisodeCalendar.swift */; };
+		6A8C09DB1D17200F009FE5D4 /* EpisodeFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8C09DA1D17200F009FE5D4 /* EpisodeFrame.swift */; };
+		6A8C09DD1D172261009FE5D4 /* EpisodeCalendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8C09DC1D172261009FE5D4 /* EpisodeCalendarTests.swift */; };
+		6A8C09E31D1732C4009FE5D4 /* XCTAssertSwiftError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8C09E21D1732C4009FE5D4 /* XCTAssertSwiftError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +44,16 @@
 		6A8C09B21D16D389009FE5D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A8C09B41D16D389009FE5D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6A8C09B91D16D389009FE5D4 /* Time ManagementTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Time ManagementTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6A8C09BD1D16D389009FE5D4 /* Time_ManagementTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_ManagementTests.swift; sourceTree = "<group>"; };
 		6A8C09BF1D16D389009FE5D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A8C09C81D16D54B009FE5D4 /* Episodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Episodable.swift; sourceTree = "<group>"; };
+		6A8C09CA1D16D93C009FE5D4 /* EventTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventTests.swift; sourceTree = "<group>"; };
+		6A8C09CC1D16E254009FE5D4 /* IntentTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntentTests.swift; sourceTree = "<group>"; };
+		6A8C09D21D170EC7009FE5D4 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		6A8C09D41D170ED0009FE5D4 /* Intent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Intent.swift; sourceTree = "<group>"; };
+		6A8C09D61D170F07009FE5D4 /* EpisodeCalendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EpisodeCalendar.swift; sourceTree = "<group>"; };
+		6A8C09DA1D17200F009FE5D4 /* EpisodeFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EpisodeFrame.swift; sourceTree = "<group>"; };
+		6A8C09DC1D172261009FE5D4 /* EpisodeCalendarTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EpisodeCalendarTests.swift; sourceTree = "<group>"; };
+		6A8C09E21D1732C4009FE5D4 /* XCTAssertSwiftError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCTAssertSwiftError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,13 +95,10 @@
 		6A8C09A41D16D389009FE5D4 /* Time Management */ = {
 			isa = PBXGroup;
 			children = (
-				6A8C09A51D16D389009FE5D4 /* AppDelegate.swift */,
-				6A8C09A71D16D389009FE5D4 /* ViewController.swift */,
-				6A8C09A91D16D389009FE5D4 /* Main.storyboard */,
-				6A8C09AF1D16D389009FE5D4 /* Assets.xcassets */,
-				6A8C09B11D16D389009FE5D4 /* LaunchScreen.storyboard */,
-				6A8C09B41D16D389009FE5D4 /* Info.plist */,
-				6A8C09AC1D16D389009FE5D4 /* Time_Management.xcdatamodeld */,
+				6A8C09CF1D170DE9009FE5D4 /* Controller */,
+				6A8C09CE1D170DE2009FE5D4 /* Model */,
+				6A8C09D01D170DF3009FE5D4 /* View */,
+				6A8C09D11D170E0D009FE5D4 /* Miscellaneous */,
 			);
 			path = "Time Management";
 			sourceTree = "<group>";
@@ -93,10 +106,53 @@
 		6A8C09BC1D16D389009FE5D4 /* Time ManagementTests */ = {
 			isa = PBXGroup;
 			children = (
-				6A8C09BD1D16D389009FE5D4 /* Time_ManagementTests.swift */,
+				6A8C09CA1D16D93C009FE5D4 /* EventTests.swift */,
+				6A8C09CC1D16E254009FE5D4 /* IntentTests.swift */,
+				6A8C09DC1D172261009FE5D4 /* EpisodeCalendarTests.swift */,
+				6A8C09E21D1732C4009FE5D4 /* XCTAssertSwiftError.swift */,
 				6A8C09BF1D16D389009FE5D4 /* Info.plist */,
 			);
 			path = "Time ManagementTests";
+			sourceTree = "<group>";
+		};
+		6A8C09CE1D170DE2009FE5D4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6A8C09D61D170F07009FE5D4 /* EpisodeCalendar.swift */,
+				6A8C09DA1D17200F009FE5D4 /* EpisodeFrame.swift */,
+				6A8C09D41D170ED0009FE5D4 /* Intent.swift */,
+				6A8C09D21D170EC7009FE5D4 /* Event.swift */,
+				6A8C09C81D16D54B009FE5D4 /* Episodable.swift */,
+				6A8C09AC1D16D389009FE5D4 /* Time_Management.xcdatamodeld */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		6A8C09CF1D170DE9009FE5D4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6A8C09A71D16D389009FE5D4 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		6A8C09D01D170DF3009FE5D4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6A8C09A91D16D389009FE5D4 /* Main.storyboard */,
+				6A8C09AF1D16D389009FE5D4 /* Assets.xcassets */,
+				6A8C09B11D16D389009FE5D4 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		6A8C09D11D170E0D009FE5D4 /* Miscellaneous */ = {
+			isa = PBXGroup;
+			children = (
+				6A8C09B41D16D389009FE5D4 /* Info.plist */,
+				6A8C09A51D16D389009FE5D4 /* AppDelegate.swift */,
+			);
+			name = Miscellaneous;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +205,8 @@
 				TargetAttributes = {
 					6A8C09A11D16D389009FE5D4 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = DAXE27HEWR;
+						DevelopmentTeamName = "Tobias Wermuth (Personal Team)";
 						ProvisioningStyle = Automatic;
 					};
 					6A8C09B81D16D389009FE5D4 = {
@@ -202,9 +260,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A8C09C91D16D54B009FE5D4 /* Episodable.swift in Sources */,
 				6A8C09AE1D16D389009FE5D4 /* Time_Management.xcdatamodeld in Sources */,
 				6A8C09A81D16D389009FE5D4 /* ViewController.swift in Sources */,
+				6A8C09DB1D17200F009FE5D4 /* EpisodeFrame.swift in Sources */,
 				6A8C09A61D16D389009FE5D4 /* AppDelegate.swift in Sources */,
+				6A8C09D31D170EC7009FE5D4 /* Event.swift in Sources */,
+				6A8C09D51D170ED0009FE5D4 /* Intent.swift in Sources */,
+				6A8C09D71D170F07009FE5D4 /* EpisodeCalendar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,7 +275,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A8C09BE1D16D389009FE5D4 /* Time_ManagementTests.swift in Sources */,
+				6A8C09E31D1732C4009FE5D4 /* XCTAssertSwiftError.swift in Sources */,
+				6A8C09CD1D16E254009FE5D4 /* IntentTests.swift in Sources */,
+				6A8C09DD1D172261009FE5D4 /* EpisodeCalendarTests.swift in Sources */,
+				6A8C09CB1D16D93C009FE5D4 /* EventTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +406,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Time Management/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "de.tobynextdoor.Time-Management";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -352,6 +419,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Time Management/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "de.tobynextdoor.Time-Management";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -404,6 +472,7 @@
 				6A8C09C41D16D389009FE5D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6A8C09C51D16D389009FE5D4 /* Build configuration list for PBXNativeTarget "Time ManagementTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +481,7 @@
 				6A8C09C71D16D389009FE5D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
